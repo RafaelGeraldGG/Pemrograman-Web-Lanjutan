@@ -304,32 +304,6 @@ html.dark #theme-toggle, html.dark #menu-toggle { background: rgba(255,255,255,.
   transform: translateY(-4px);
 }
 
-.course-tab-btn {
-  transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-.course-tab-btn.active {
-  background: linear-gradient(135deg, #15385f, #225184);
-  color: #ffffff !important;
-  box-shadow: 0 8px 20px rgba(21, 56, 95, 0.24);
-}
-html.dark .course-tab-btn.active {
-  background: linear-gradient(135deg, #3e78b2, #1d4b7c);
-  color: #ffffff !important;
-  box-shadow: 0 8px 24px rgba(62, 120, 178, 0.3);
-}
-
-.tab-pane {
-  display: none;
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 0.35s ease, transform 0.35s ease;
-}
-.tab-pane.active {
-  display: block;
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* Feedback & Guestbook Styles */
 .feedback-bubble {
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
@@ -338,21 +312,7 @@ html.dark .course-tab-btn.active {
   transform: translateY(-2px);
 }
 
-/* Master Tab Switcher & Workflow Cards */
-.master-tab-btn {
-  transition: all 0.25s cubic-bezier(0.2, 0.8, 0.2, 1);
-}
-.master-tab-btn.active {
-  background: linear-gradient(135deg, #15385f, #255b94) !important;
-  color: #ffffff !important;
-  box-shadow: 0 8px 20px rgba(21, 56, 95, 0.25);
-  border-color: transparent !important;
-}
-html.dark .master-tab-btn.active {
-  background: linear-gradient(135deg, #3e78b2, #1d4b7c) !important;
-  color: #ffffff !important;
-  box-shadow: 0 8px 24px rgba(62, 120, 178, 0.32);
-}
+/* Workflow Cards */
 
 .workflow-card {
   transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
