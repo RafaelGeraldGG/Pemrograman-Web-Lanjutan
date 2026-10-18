@@ -75,17 +75,11 @@ function openMember(member, trigger) {
   });
   document.getElementById("modal-hobby").textContent = member.hobby;
   document.getElementById("modal-quote").textContent = member.quote;
-  const phoneLink = document.getElementById("modal-phone");
   const emailLink = document.getElementById("modal-email");
-  document.getElementById("modal-phone-text").textContent = member.phone;
   document.getElementById("modal-email-text").textContent = member.email;
-  const validPhone = /^\+?[0-9\s()-]{7,}$/.test(member.phone);
   const validEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(member.email);
-  if (validPhone) phoneLink.href = `tel:${member.phone.replace(/[^+\d]/g, "")}`;
-  else phoneLink.removeAttribute("href");
   if (validEmail) emailLink.href = `mailto:${member.email}`;
   else emailLink.removeAttribute("href");
-  phoneLink.setAttribute("aria-disabled", String(!validPhone));
   emailLink.setAttribute("aria-disabled", String(!validEmail));
   modal.classList.remove("hidden");
   modal.classList.add("flex");
@@ -611,5 +605,4 @@ initFeedbackSystem();
 
 lucide.createIcons();
 AOS.init({ duration: 650, once: false, mirror: true, offset: 55, easing: "ease-out-cubic" });
-
 

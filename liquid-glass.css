@@ -267,19 +267,18 @@ html.dark .dark-footer {
   box-shadow: 0 10px 24px rgba(16,43,78,.18);
 }
 html.dark .modal-panel #modal-image { border-color: #14243a !important; }
-.modal-panel #modal-npm, .modal-panel dl, #modal-phone, #modal-email {
+.modal-panel #modal-npm, .modal-panel dl, #modal-email {
   border: 1px solid rgba(157,183,212,.2);
   background: rgba(235,243,251,.56);
 }
 html.dark .modal-panel #modal-npm,
 html.dark .modal-panel dl,
-html.dark #modal-phone,
 html.dark #modal-email {
   border-color: rgba(189,215,242,.12);
   background: rgba(12,29,48,.58);
 }
-#modal-phone, #modal-email { border-radius: 14px; }
-#modal-phone:hover, #modal-email:hover { border-color: rgba(88,145,197,.38); }
+#modal-email { border-radius: 14px; }
+#modal-email:hover { border-color: rgba(88,145,197,.38); }
 .education-panel {
   border: 1px solid rgba(157,183,212,.2);
   background: rgba(235,243,251,.48);
@@ -376,4 +375,3 @@ html.dark .feedback-bubble {
   background: linear-gradient(145deg, rgba(18, 35, 57, 0.82), rgba(14, 27, 44, 0.7));
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
-
