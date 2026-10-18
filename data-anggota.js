@@ -52,7 +52,7 @@ window.dataAnggota = [
       smp: "SMP Negeri 9 Ambon",
       sma: "SMK Negeri 5 Ambon"
     },
-    hobby: "Mendengarkan Musik",
+    hobby: "Olahraga",
     email: "tedisamuel205@gmail.com",
     quote: "Kesempatan tidak datang begitu saja, kita yang menciptakannya."
   },
@@ -69,7 +69,7 @@ window.dataAnggota = [
       smp: "SMP Negeri 11 Ambon",
       sma: "SMK Negeri 7 Ambon"
     },
-    hobby: "Isi hobi",
+    hobby: "Mendengarkan Musik",
     email: "nataliadacosta557@gmail.com",
     quote: "Jadilah perubahan yang ingin kamu lihat di dunia."
   },
@@ -80,14 +80,14 @@ window.dataAnggota = [
     focus: "Dokumentasi dan pengujian",
     image: "images/anggota-05.jpg",
     bio: "Saya senang memastikan ide dan proses kerja terdokumentasi dengan baik. Saya juga membantu menguji hasil agar pengalaman yang kami bangun berjalan sesuai harapan.",
-    birthDate: "Isi tanggal lahir",
+    birthDate: "13 Agustus 2005",
     educationHistory: {
-      sd: "SD",
-      smp: "SMP Negeri Ambon",
-      sma: "SMA Negeri Ambon"
+      sd: "SD Negeri 6 Lermatang",
+      smp: "SMP Negeri 17 Ambon",
+      sma: "SMA Kristen YPKPM Ambon"
     },
-    hobby: "Isi hobi",
-    email: "Isi alamat email",
+    hobby: "Menulis Puisi dan Membaca Puisi",
+    email: "nadyamaoky08@gmail.com",
     quote: "Sedikit demi sedikit, lama-lama menjadi bukit."
   }
 ];
